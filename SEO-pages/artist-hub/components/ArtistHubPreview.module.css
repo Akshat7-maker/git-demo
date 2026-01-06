@@ -1,0 +1,537 @@
+/* ArtistHub.module.css - Complete CSS Modules */
+
+.artistHub {
+  background-color: #faf9f7;
+}
+
+.heroSection {
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.homeContent {
+  margin-top: 3rem;
+}
+
+.cont {
+  position: relative;
+  z-index: 5;
+}
+
+.textHeading {
+  /* Add your heading styles */
+}
+
+.nameFont {
+  /* Add your font styles */
+}
+
+.goldenHeading {
+  color: #cbb682;
+}
+
+.paddingArtistHeader {
+  padding: 0 125px;
+}
+
+.artistTitle {
+  font-size: 120px;
+  color: #1a1a1a;
+  letter-spacing: -10px;
+  padding: 0 125px;
+  line-height: 115px;
+}
+
+.roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.colorLove {
+  color: #cbb682;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.padingParaArtistmain {
+  padding: 10px 172px;
+  font-size: 1.25rem;
+}
+
+.oneBtn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.paddingButtons {
+  padding: 50px 256px 0 256px;
+}
+
+.artistPage {
+  padding: 80px 200px 1rem;
+}
+
+.headingBrand {
+  font-weight: 600;
+  font-size: 96px;
+  letter-spacing: -4px;
+  line-height: 120%;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+.brandlovePara {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1a1a1a;
+  max-width: 940px;
+  letter-spacing: 0;
+}
+
+.cardSection4 {
+  padding-top: 40px;
+}
+
+.flexGap {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.cardArtist {
+  flex: 1;
+}
+
+.artistImg {
+  width: 100%;
+  height: 342.45px;
+  object-fit: cover;
+}
+
+.cardDataArtist {
+  background-color: #fff;
+  color: #1a1a1a;
+  height: 340px;
+  padding: 0 30px;
+  width: 100%;
+  position: relative;
+}
+
+.artHeadCard {
+  letter-spacing: -1px;
+  line-height: 120%;
+  padding-top: 30px;
+  font-size: 24px;
+}
+
+.font24 {
+  font-size: 24px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.para1card {
+  padding: 11px 0;
+  line-height: 23px;
+  letter-spacing: 0;
+}
+
+.para2card {
+  line-height: 23px;
+  padding-bottom: 44px;
+}
+
+.learnTag {
+  position: relative;
+  bottom: 5px;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marhinTop {
+  margin-top: -19px;
+}
+
+.educationCardsSection {
+  padding-top: 72px;
+  padding-bottom: 60px;
+}
+
+.educationHeading {
+  font-size: 64px;
+  letter-spacing: -2px;
+  padding-bottom: 0.75rem;
+}
+
+.eduCardsConatiner {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.educationCardOne {
+  width: 100%;
+  height: 380px;
+  background-color: #cbb682;
+  padding: 30px 40px;
+}
+
+.kristinaContainer {
+  background: #fff;
+  width: 137.69px;
+  height: 137.69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  min-width: 137.69px;
+}
+
+.kristinaImg {
+  width: 120.41px;
+  height: 86.57px;
+  object-fit: contain;
+}
+
+.kristinaPara {
+  padding: 40px 0;
+  font-size: 1rem;
+}
+
+.saveTag {
+  background: #1a1a1a;
+  padding: 3px 9px;
+  color: #cbb682;
+  font-size: 1.25rem;
+}
+
+.industrySection {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.industryHeading {
+  letter-spacing: -2px;
+  max-width: 481.77px;
+  font-size: 64px;
+  line-height: 58px;
+}
+
+.eventCardContainer {
+  padding: 20px 0;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventCardOne {
+  width: 100%;
+  min-width: 100%;
+  height: 620.25px;
+  min-height: 620.25px;
+  background-color: #1a1a1a;
+  padding: 40px;
+  color: #fff;
+}
+
+.wedcomImgContainer {
+  width: 146px;
+  height: 146px;
+  background-color: #2d3438;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedcomImg {
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+
+.goldenSaveTag {
+  background-color: #cbb682;
+  color: #1a1a1a;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -1px;
+  font-size: 1.25rem;
+}
+
+.wedconheading {
+  letter-spacing: -0.5px;
+  padding-top: 45px;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.paddingParaEvent {
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+.learnMoreUnderline {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+}
+
+.paddingLearnTop {
+  padding-top: 20px;
+}
+
+.businessCoursesSection {
+  padding-bottom: 60px;
+}
+
+.businessHeading {
+  max-width: 538.25px;
+  font-size: 64px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  padding-bottom: 20px;
+}
+
+.businessCardOne {
+  width: 100%;
+  min-height: 446.36px;
+  height: 446.36px;
+  background-color: #fff;
+  padding: 30px 40px;
+}
+
+.wedconCntainer {
+  background: #fff;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 166px;
+  display: flex;
+  min-width: 166px;
+}
+
+.wedImg {
+  object-fit: contain;
+  width: 144px;
+  height: 144px;
+}
+
+.paddingBottomPara {
+  padding-bottom: 20px;
+}
+
+.businessServicesHeading {
+  max-width: 551.25px;
+  line-height: 90%;
+  letter-spacing: -3px;
+  font-size: 64px;
+}
+
+.charitySection {
+  padding: 100px 0;
+}
+
+.charityHeading {
+  font-size: 64px;
+  letter-spacing: -3px;
+}
+
+.charityCard {
+  width: 100%;
+  height: 388px;
+  min-height: 388px;
+  background-color: #fff;
+  padding: 40px;
+  flex: 1;
+  max-width: 50%;
+}
+
+.lookGoodImg {
+  width: 144.87px;
+  height: 144.87px;
+  object-fit: contain;
+}
+
+.lookHeading {
+  letter-spacing: -1px;
+}
+
+.registedFont {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.joinUsPara {
+  letter-spacing: -1px;
+  max-width: 388.94px;
+  line-height: 33px;
+  padding-top: 20px;
+}
+
+.paraCharity {
+  padding: 30px 0;
+}
+
+.imgCharityConatiner {
+  width: 100%;
+  flex: 1;
+}
+
+.charityImg {
+  object-fit: cover;
+  width: 100%;
+  height: 388px;
+}
+
+.affiliateSection {
+  /* Add styles if needed */
+}
+
+.affiliateContainer {
+  background-color: #fff;
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 40px 260px;
+  text-align: center;
+}
+
+.affiliateHeading {
+  font-size: 36px;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+/* Font size utilities */
+.fs4 {
+  font-size: 1.25rem;
+}
+
+.fs5 {
+  font-size: 1.25rem;
+}
+
+.fs6 {
+  font-size: 1rem;
+}
+
+/* Padding utilities */
+.pb1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb4 {
+  padding-bottom: 1rem;
+}
+
+.pt2 {
+  padding-top: 0.5rem;
+}
+
+.pt4 {
+  padding-top: 1rem;
+}
+
+/* Position utilities */
+.positionRelative {
+  position: relative;
+}
+
+.positionAbsolute {
+  position: absolute;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+  .artistPage {
+    padding: 80px 100px 1rem;
+  }
+  
+  .paddingArtistHeader,
+  .artistTitle {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .paddingButtons {
+    padding: 50px 100px 0 100px;
+  }
+  
+  .padingParaArtistmain {
+    padding: 10px 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .flexGap {
+    flex-wrap: wrap;
+  }
+  
+  .cardArtist {
+    min-width: calc(50% - 0.5rem);
+  }
+  
+  .educationCardOne,
+  .businessCardOne {
+    min-width: 100%;
+  }
+  
+  .charityCard {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .artistTitle {
+    font-size: 64px;
+    line-height: 60px;
+    letter-spacing: -5px;
+  }
+  
+  .headingBrand {
+    font-size: 48px;
+  }
+  
+  .cardArtist {
+    min-width: 100%;
+  }
+  
+  .eventCardContainer {
+    flex-direction: column;
+  }
+  
+  .affiliateContainer {
+    padding: 40px 20px;
+  }
+}
